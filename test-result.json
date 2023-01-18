@@ -1,0 +1,66 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/PlayWright Projects/PlaywrightFramework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "D:/PlayWright Projects/PlaywrightFramework",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "D:\\PlayWright Projects\\PlaywrightFramework\\playwright.config.ts",
+    "rootDir": "D:/PlayWright Projects/PlaywrightFramework",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.28.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "=================\n no tests found.\n=================",
+      "__isNotAFatalError": true
+    }
+  ]
+}
